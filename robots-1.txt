@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://talviogenerate.com/sitemap.xml
+
+# Block common non-content paths (aman untuk situs single-page, sesuaikan bila ada admin/api)
+Disallow: /cgi-bin/
+Disallow: /*?*utm_
+Disallow: /*?*ref=
